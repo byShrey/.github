@@ -1,0 +1,18 @@
+{
+  "_note": "One entry per star. x, y place it on a 1000 x 440 sky. links name related stars. repo (optional) makes it pulse red when pushed in the last 14 days. status: shipped | bench | blueprint.",
+  "stars": [
+    { "id": "ptah", "name": "Ptah", "status": "shipped", "x": 190, "y": 150, "repo": "byShrey/ptah-tools", "links": ["byshrey", "converter", "hatch"], "from": "2026-08-09", "to": "2026-09-29", "url": "https://tools.byshrey.com", "kind": "web", "versions": [["2026-09-17", "live"]], "blurb": "63 free tools for images, PDFs and files" },
+    { "id": "byshrey", "name": "byshrey.com", "status": "shipped", "x": 400, "y": 90, "links": ["notes", "games", "hatch", "radio"], "from": "2026-09-17", "to": "2026-09-29", "url": "https://byshrey.com", "kind": "web", "versions": [["2026-09-18", "live"]], "blurb": "the front door to everything here" },
+    { "id": "vaani", "name": "Vaani", "status": "shipped", "x": 690, "y": 120, "repo": "byShrey/vaani", "links": ["widgetbar", "pocket", "relay"], "from": "2026-08-27", "to": "2026-10-07", "url": "https://vaani.byshrey.com", "kind": "apps", "versions": [["2026-09-29", "1.0.1"], ["2026-10-07", "1.0.2"]], "blurb": "Mac dictation that finally gets Hinglish" },
+    { "id": "relay", "name": "Sage Relay", "status": "shipped", "x": 840, "y": 230, "repo": "byShrey/sage-relay", "links": ["pocket"], "from": "2026-09-15", "to": "2026-10-08", "url": "https://github.com/byShrey/sage-relay", "kind": "apps", "versions": [["2026-09-25", "0.9.9"], ["2026-10-07", "0.6.1"], ["2026-10-08", "0.7.0"]], "blurb": "AI agents that pass the baton cleanly", "activity": ["byShrey/session-relay", "byShrey/sage-relay"] },
+    { "id": "widgetbar", "name": "widgetbar", "status": "shipped", "x": 560, "y": 220, "repo": "byShrey/widgetbar", "links": [], "from": "2026-08-13", "to": "2026-09-25", "url": "https://github.com/byShrey/widgetbar", "kind": "apps", "versions": [["2026-08-13", "1.0.1"]], "blurb": "tiny tools for your Mac menu bar" },
+    { "id": "hatch", "name": "Hatch", "status": "bench", "x": 330, "y": 260, "links": ["brood"], "from": "2026-10-09", "kind": "web", "versions": [], "blurb": "a vault of hidden website Easter eggs" },
+    { "id": "brood", "name": "Brood", "status": "bench", "x": 450, "y": 360, "links": ["games"], "from": "2026-10-01", "kind": "web", "versions": [], "blurb": "a pet that hatches and grows to look like you" },
+    { "id": "games", "name": "games", "status": "bench", "x": 620, "y": 330, "links": [], "from": "2026-10-02", "kind": "web", "versions": [], "blurb": "small games, big procrastination" },
+    { "id": "radio", "name": "World Radio", "status": "bench", "x": 520, "y": 40, "links": [], "from": "2026-09-30", "kind": "web", "versions": [["2026-09-30", "feel test"]], "blurb": "every good station on Earth, never silent" },
+    { "id": "notes", "name": "Notes", "status": "bench", "x": 270, "y": 50, "links": [], "from": "2026-10-07", "kind": "web", "versions": [], "blurb": "a blog where the experiments get written up" },
+    { "id": "converter", "name": "converter", "status": "blueprint", "x": 110, "y": 320, "links": [], "kind": "web", "versions": [] },
+    { "id": "pocket", "name": "pocket AI", "status": "blueprint", "x": 760, "y": 370, "links": ["vayu"], "kind": "hardware", "versions": [] },
+    { "id": "vayu", "name": "Vayu", "status": "blueprint", "x": 930, "y": 340, "repo": "byShrey/Vayu-Mouse", "links": [], "from": "2026-08-26", "to": "2026-09-01", "kind": "hardware", "versions": [["2026-08-26", "v1"]], "blurb": "turns any phone into an air mouse" }
+  ]
+}
